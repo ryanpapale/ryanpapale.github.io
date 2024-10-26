@@ -21,10 +21,10 @@ repository               : "ryanpapale/ryanpapale.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "headshot.jpg"
   name             : "Ryan Papale"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student"
+  bio              : "Economics PhD Student"
   location         : "California, USA"
   employer         : "University of Bristol"
   uri              : # URL
