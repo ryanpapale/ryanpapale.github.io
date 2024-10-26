@@ -21,7 +21,7 @@ repository               : "ryanpapale/ryanpapale.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "headshot.jpg"
+  avatar           : "headshot.png"
   name             : "Ryan Papale"
   pronouns         : # example: "she/her"  
   bio              : "Economics PhD Student"
