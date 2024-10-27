@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-![Music](images/DeviceHourPlot.png){: .align-center}
-
 {% include base_path %}
 
 Education
