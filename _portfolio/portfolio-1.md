@@ -4,7 +4,7 @@ excerpt: "My Apple Music listening trends.<br/><img src='/images/GenreByMonth.pn
 collection: portfolio
 ---
 
-This is my first mini project in Python. I used my Apple Music data to create following tables and figures.
+This is my first mini project in Python. I used my Apple Music data to create following tables and figures. The code I used to create these is available <a href="https://github.com/ryanpapale/AppleMusic">here</a>.
 
 <table border="1" class="dataframe">
  <caption> <strong>Favorite Artists for the Past Year</strong></caption>
