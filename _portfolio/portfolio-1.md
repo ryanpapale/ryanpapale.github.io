@@ -1,7 +1,7 @@
 ---
 title: "Apple Music Listening Trends"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/GenreByMonth.png'>"
-collection: projects
+excerpt: "My Apple Music listening trends.<br/><img src='/images/GenreByMonth.png'>"
+collection: portfolio
 ---
 
 This is my first mini project in Python. I used my Apple Music data to create following tables and figures.
