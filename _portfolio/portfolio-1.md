@@ -12,7 +12,7 @@ This is my first mini project in Python. I used my Apple Music data to create fo
     <tr style="text-align: right;">
       <th>Rank</th>
       <th>Artist</th>
-      <th>Count</th>
+      <th>Play Count</th>
     </tr>
   </thead>
   <tbody>
