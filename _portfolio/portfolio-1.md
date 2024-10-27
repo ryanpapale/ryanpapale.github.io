@@ -1,10 +1,47 @@
 ---
 title: "Apple Music Listening Trends"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/GenreByMonth.png'>"
-collection: portfolio
+collection: projects
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This is my first mini project in Python. I used my Apple Music data to create following tables and figures.
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Rank</th>
+      <th>Artist</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Calibre 50</td>
+      <td>1118</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>El Komander</td>
+      <td>781</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Los Tigres del Norte</td>
+      <td>620</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Gerardo Ortiz</td>
+      <td>448</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>El de La Guitarra</td>
+      <td>340</td>
+    </tr>
+  </tbody>
+</table>
 
 
 <img src='/images/GenreByMonth.png'>
@@ -13,39 +50,3 @@ This is an item in your portfolio. It can be have images or nice text. If you na
 
 <img src='/images/DeviceHourPlot.png'>
 
-<table border="1" class="dataframe table table-stripped">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Song</th>
-      <th>Artist</th>
-      <th>Count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>De Corazon Ranchero</td>
-      <td>Revolver Cannabis</td>
-      <td>266</td>
-    </tr>
-    <tr>
-      <td>Soy de Rancho</td>
-      <td>El Komander</td>
-      <td>220</td>
-    </tr>
-    <tr>
-      <td>Frijoles Con Panela</td>
-      <td>Calibre 50</td>
-      <td>178</td>
-    </tr>
-    <tr>
-      <td>Aquiles Afirmo</td>
-      <td>Gerardo Ortiz</td>
-      <td>170</td>
-    </tr>
-    <tr>
-      <td>El Mango</td>
-      <td>Calibre 50</td>
-      <td>169</td>
-    </tr>
-  </tbody>
-</table>
