@@ -7,6 +7,7 @@ collection: portfolio
 This is my first mini project in Python. I used my Apple Music data to create following tables and figures.
 
 <table border="1" class="dataframe">
+ <caption>Favorite Artist for the Past Year</caption>
   <thead>
     <tr style="text-align: right;">
       <th>Rank</th>
