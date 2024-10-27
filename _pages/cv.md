@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-<object data="../files/CV.pdf" width="1000" height="1000"'></object>
-
 {% include base_path %}
 
 Education
