@@ -7,6 +7,9 @@ redirect_from:
   - /resume
 ---
 
+![image-center](ryanpapale.github.io/ryanpapale/assets/images/DeviceHourPlot.png){: .align-center}
+
+
 {% include base_path %}
 
 Education
