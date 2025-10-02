@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Contact </title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            Ryan Papale
+            <nav>
+                <a href = "index.html">Home</a>
+                <a href = "baseball.html">Baseball</a>
+                <a href = "economics.html">Economics</a> 
+                <a href = "contact.html">Contact</a>  
+            </nav>
+        </header>
+        
+        <div class = "secname">
+            Contact
+        </div>
+
+        <main>
+            <p>
+                <i class="fa fa-envelope"></i> Email: <br>
+                <a id="text-conversion">fake zgmail com</a>
+                <noscript>Will not display without JavaScript.</noscript> <br><br>
+
+                <i class="fa fa-linkedin-square"></i> LinkedIn: <br>
+                <a href="https://www.linkedin.com/in/ryanpapale/">https://www.linkedin.com/in/ryanpapale/</a> <br><br>
+ 
+                <i class="fa fa-github"></i> GitHub: <br>
+                <a href="https://github.com/ryanpapale">https://github.com/ryanpapale</a>
+            </p>
+        </main>
+
+        <script>
+            'use strict';
+
+            document.addEventListener('DOMContentLoaded', function () {
+                const email = document.getElementById('text-conversion').firstChild;
+
+                email.nodeValue = email.nodeValue
+                    .replace('fake', 'ryanpapale')
+                    .replace(' ', '@')
+                    .replaceAll(' ', '.')
+                    .replaceAll(new RegExp('[z]', 'g'), '');
+            });
+        </script>
+
+
+        
+        <footer>
+            &copy; 2025 Ryan Papale
+        </footer>     
+    </body>
+</html>

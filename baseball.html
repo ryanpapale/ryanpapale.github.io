@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Baseball </title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            Ryan Papale
+            <nav>
+                <a href = "index.html">Home</a>
+                <a href = "baseball.html">Baseball</a>
+                <a href = "economics.html">Economics</a> 
+                <a href = "contact.html">Contact</a>  
+            </nav>
+        </header>
+
+        <div class = "secname">
+            Baseball
+        </div>
+
+        <main>
+            <p style = "font-size: larger;"><a href = "mlb2025.html">MLB 2025 Plots</a></p>
+            <p>
+                A pair of animated plots in a Shiny app. The left plot shows each MLB team's actual wins (solid) and projected wins (dashed) if they maintained their current 
+                win percentage. The right plot shows the convergence of win percentage over the course of the season. Data was scraped from Baseball-Reference, visualized in 
+                ggplot2/gganimate, wrapped in Shiny for interactive team selection. An example for the San Diego Padres is shown below. Click the "MLB 2025 Plots" link above
+                for more details and the link to the code.
+            </p>
+            <figure>
+                <figcaption><h2 style = "color: #2F241D;">San Diego Padres</h2></figcaption>
+                <div class = "column">
+                    <img src="images/SDPWins.gif" alt = "Wins" style = "border: none; width: 340px">
+                </div>
+                <div class = "column">
+                    <img src="images/SDPPerc.gif" alt = "Percent" style = "border: none; width: 340px">
+                </div>
+            </figure>
+        </main>
+
+        <footer>
+            &copy; 2025 Ryan Papale
+        </footer>
+    </body>
+</html>

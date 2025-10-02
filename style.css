@@ -1,0 +1,86 @@
+.secname{
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 5%;
+}
+
+header {
+    background: #f8f8f8;                 /* white background */
+    padding: 1rem 2rem;               /* space inside */
+    border-bottom: 1px solid #ddd;    /* subtle separator line */
+    display: flex;                    /* place title + nav side by side */
+    justify-content: space-between;   /* space out left and right */
+    align-items: center;              /* vertically center */
+    font-size: x-large;
+}
+
+nav a {
+    margin-left: 1.5rem;              /* space between links */
+    text-decoration: none;            /* no underline */
+    color: #333;
+    font-size: large;
+}
+
+nav a:hover {
+    color: #0077cc;                   /* highlight color on hover */
+}
+
+html, body{
+    height: 100%;             /* allow flexbox to stretch full height */
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;   /* stack header, main, footer vertically */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 2rem;       /* space above main content */
+    flex: 1;                  /* main takes all available space */
+}
+
+p {
+    margin-bottom: 1em; /* space between paragraphs */
+    text-align: justify;
+}
+
+footer {
+    border-top: 1px solid #f8f8f8;    /* subtle separator line */
+    background: #ffffff;
+    text-align: center;
+    padding: .5rem;
+}
+
+figure {
+  display: block;          /* treat figure as a block */
+  margin: 1rem auto;       /* auto left/right margins → center the figure */
+  text-align: center;      /* centers the caption text inside */
+  max-width: max-content;  /* shrink to fit the image width */
+}
+
+figure img{
+  display: block;          /* forces image to sit on its own line */
+  margin: 0 auto;          /* centers the image inside figure */
+  max-width: 100%;         
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+
+figure iframe{
+    display: flex;
+    width: 700px;
+    height: 575px;
+    border: none;
+}
+
+.column{
+    float:left;
+}

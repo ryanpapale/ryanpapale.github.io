@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> MLB 2025 </title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            Ryan Papale
+            <nav>
+                <a href = "index.html">Home</a>
+                <a href = "baseball.html">Baseball</a>
+                <a href = "economics.html">Economics</a> 
+                <a href = "contact.html">Contact</a>  
+            </nav>
+        </header>
+
+        <div class = "secname">
+            Baseball
+        </div>
+
+        <main>
+            <p style = "font-size: larger;">MLB 2025 Plots</p>
+            <p>
+                For this project, I built a simple interactive visualization that shows the evolution of MLB teams' win totals and win percentage over the course of the 2025 
+                regular season. In the chart on the left side, actual wins are shown as the solid line and projected wins, calculated as the total number of wins a team 
+                would have if they maintained their current win percentage for the remainder of the season, are plotted as the dashed line.<br><br>
+
+                The chart on the right displays the evolution of the team's centered win percentage over the season. Here, centered win percentage takes the team's final 
+                win percentage as the truth and subtracts it from their current win percentage on a game-by-game basis. This aids in comparison across teams as they will all
+                converge to zero over the course of the season. 95% confidence intervals, indicated by the shaded region, are also included to illustrate how uncertainty around
+                the point estimate changes over the course of the season.
+                
+                Data was scraped responsibly from Baseball-Reference. I then cleaned and structured the data in R. Finally, I created the animated plots using ggplot2 and 
+                gganimate and wrapped the animated plots in a Shiny app for interactivity. The resulting app can be seen below.
+                <br><br>
+                
+                The code to create these plots can be found <a href = "https://github.com/ryanpapale/MLBPlots2025" target="_blank">here</a> on my GitHub. 
+            </p>
+
+            <figure>
+                <iframe src="https://ryanpapale.shinyapps.io/MLBPlots2025/"></iframe>
+            </figure>
+        </main>
+
+
+        <footer>
+            &copy; 2025 Ryan Papale
+        </footer>
+    </body>
+</html>
