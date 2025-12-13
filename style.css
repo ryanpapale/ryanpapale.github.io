@@ -5,34 +5,34 @@
 }
 
 header {
-    background: #f8f8f8;                 /* white background */
-    padding: 1rem 2rem;               /* space inside */
-    border-bottom: 1px solid #ddd;    /* subtle separator line */
-    display: flex;                    /* place title + nav side by side */
-    justify-content: space-between;   /* space out left and right */
-    align-items: center;              /* vertically center */
+    background: #f8f8f8;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: x-large;
 }
 
 nav a {
-    margin-left: 1.5rem;              /* space between links */
-    text-decoration: none;            /* no underline */
+    margin-left: 1.5rem;
+    text-decoration: none;
     color: #333;
     font-size: large;
 }
 
 nav a:hover {
-    color: #0077cc;                   /* highlight color on hover */
+    color: #0077cc;
 }
 
 html, body{
-    height: 100%;             /* allow flexbox to stretch full height */
+    height: 100%;
     margin: 0;
 }
 
 body {
     display: flex;
-    flex-direction: column;   /* stack header, main, footer vertically */
+    flex-direction: column;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -40,32 +40,32 @@ body {
 main{
     max-width: 700px;
     margin: 0 auto;
-    margin-top: 2rem;       /* space above main content */
-    flex: 1;                  /* main takes all available space */
+    margin-top: 2rem;
+    flex: 1;
 }
 
 p {
-    margin-bottom: 1em; /* space between paragraphs */
+    margin-bottom: 1em;
     text-align: justify;
 }
 
 footer {
-    border-top: 1px solid #f8f8f8;    /* subtle separator line */
+    border-top: 1px solid #f8f8f8;
     background: #ffffff;
     text-align: center;
     padding: .5rem;
 }
 
 figure {
-  display: block;          /* treat figure as a block */
-  margin: 1rem auto;       /* auto left/right margins → center the figure */
-  text-align: center;      /* centers the caption text inside */
-  max-width: max-content;  /* shrink to fit the image width */
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  max-width: max-content;
 }
 
 figure img{
-  display: block;          /* forces image to sit on its own line */
-  margin: 0 auto;          /* centers the image inside figure */
+  display: block;
+  margin: 0 auto;
   max-width: 100%;         
 }
 
