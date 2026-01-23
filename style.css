@@ -1,17 +1,18 @@
-.secname{
-    font-size: xx-large;
-    text-align: center;
-    padding-top: 5%;
-}
-
 header {
-    background: #f8f8f8;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: x-large;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h2 {
+    margin-bottom: 3rem;
+    font-weight: normal;
 }
 
 nav a {
@@ -25,7 +26,7 @@ nav a:hover {
     color: #0077cc;
 }
 
-html, body{
+html, body {
     height: 100%;
     margin: 0;
 }
@@ -37,14 +38,35 @@ body {
     line-height: 1.5;
 }
 
-main{
+.contact-grid {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem 2rem;
+    justify-content: center;   
+    align-items: center;
+}
+
+.contact-grid .item {
+    display: contents; 
+}
+
+.contact-grid span {
+    justify-self: start; 
+    text-align: left;
+}
+
+
+
+main {
+    width: 50%;
     max-width: 700px;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     flex: 1;
 }
 
-p {
+p{
     margin-bottom: 1em;
     text-align: justify;
 }
@@ -57,30 +79,14 @@ footer {
 }
 
 figure {
-  display: block;
   margin: 1rem auto;
   text-align: center;
   max-width: max-content;
 }
 
-figure img{
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;         
-}
-
-figcaption {
-  margin-top: 0.5rem;
-  font-size: 0.9em;
-}
-
-figure iframe{
+figure iframe {
     display: flex;
     width: 700px;
     height: 575px;
     border: none;
-}
-
-.column{
-    float:left;
 }
